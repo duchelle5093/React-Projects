@@ -1,0 +1,38 @@
+.navbar{
+    background-color: wheat;
+    height: 100vh;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo p{
+    font-size: 10px;
+}
+.logo h1 {
+  text-align: center;
+}
+.all  button{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    margin-left: 20px;
+    padding:5px ;
+    width: 150px;
+    cursor: pointer;
+    background: inherit;
+    border: none;
+}
+.middle-menu .all {
+  margin-top: 50px;
+}
+.middle-menu{
+    margin-top: -150px;
+}
